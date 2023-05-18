@@ -1,0 +1,21 @@
+body{
+    background-image: url(samuel-berner-kcvEQb7GXZc-unsplash.jpg) ;
+    background-size:no-repeat;
+    background-position: center;
+    height: 1000px;
+
+}
+.dz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+a{
+text-decoration: none;
+background-color: rgb(174, 228, 48);
+color: rgb(96, 87, 185);
+padding: 10px;
+border-radius: 10px;
+}
