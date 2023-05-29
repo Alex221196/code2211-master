@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-color: rgb(209, 202, 202);
+    margin: 0;
+}
+header {
+    top: 0;
+    position: sticky;
+    background-color:rgb(99, 6, 6);
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+ 
+}
+.navigation {
+    display: flex;
+    margin: 0 auto;
+
+}
+.nav_link {
+    padding: 25px 50px;
+}
+.nav_link:hover {
+    background-color: rgb(54, 12, 12);
+}
+.first {
+    text-transform: uppercase;
+
+}
+.content {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+
+}
+.content_container {
+    display: flex;
+    margin: 0 auto;
+}
+.left_side {
+ 
+
+}
+.right_side {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 40px;
+    background-color: rgb(136, 130, 130);
+    height: 520px;
+}
+h1 {
+    font-size: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+table {
+    margin-top: 15px;
+}
+td {
+    padding-right: 5px;
+}
+.row {
+    padding-top: 0px;
+}
+
+.authors {
+    width: 1140px;
+    height: 800px;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 212, 212);
+    /* top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); Центрирование чего-либо */
+}
+h2 {
+    margin-top: 50px;
+}
+.img {
+    height: 250px;
+    width: 160px;
+}
+.block {
+    margin-right: 20px;
+}
