@@ -32,66 +32,87 @@ body{
         margin-left: 0px;
     }
 }
-.main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.heart {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img:hover {
+    transform: scale(1.5);
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+img {
+    filter: grayscale(10);
+    width: 350px;
+    height: 350px;
+    transition: 0.5s;
+}
+.main {
+    transform: translate(0%, 50%);
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    border: 2px solid hotpink;
-    transform: translate(-50%,-50%);
+    border: 3px lightblue solid;
 }
-.main div{
-    position: absolute;
 
+.main div {
+    position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
 }
-.dot{
+.dot {
     border-radius: 50%;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     background-color: black;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.hh{
+
+.hh {
     width: 80px;
-    height: 8px;
-        background-color: black;
-        transform-origin: 0 50%;
-    transform: translate(0,-50%) rotate(180deg);
-    animation:  clock 43200s linear infinite ;
-}
-.mm{
-    width: 100px;
     height: 6px;
+    background-color: black;
+    transform: translate(0, -50%) rotate(-180deg);
     transform-origin: 0 50%;
-    transform: translate(0,-50%) rotate(180deg);
-    background-color:black;
-    animation:  clock 3600s linear infinite ;
+    animation: clock linear normal 423200s infinite;
 }
-.ss{
+
+.mm {
+    width: 100px;
+    height: 5px;
+    background-color: grey;
+    transform: translate(0, -50%) rotate(-180deg);
+    transform-origin: 0 50%;
+    animation: clock normal infinite linear 3600s;
+}
+
+.ss {
     width: 120px;
     height: 4px;
-    transform-origin: 0 50%;
-    transform: translate(0,-50%) rotate(180deg);
     background-color: red;
-    animation: clock 5s linear infinite;
+    transform: translate(0%, -50%) rotate(-180deg);
+    animation: clock infinite 60s linear;
+    transform-origin: 0 50%;
 }
-@keyframes clock{
-    0%{
-        transform: translate(0,-50%) rotate(180deg);
+
+@keyframes clock {
+    0% {
+        transform: translate(0, -50%) rotate(180deg);
     }
-    100%{
-        transform: translate(0,-50%) rotate(540deg);
+
+    100% {
+        transform: translate(0, -50%) rotate(540deg);
     }
 }
 .container{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 50%;
+    margin-top: 30%;
 }
 h1{
     position: absolute;
