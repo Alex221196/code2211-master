@@ -12,23 +12,19 @@ header {
     background-color:rgb(99, 6, 6);
     font-size: 24px;
     font-weight: bold;
-
 }
 .container {
     max-width: 1140px;
     margin: 0 auto;
-
 }
 a {
     display: block;
     color: #fff;
     text-decoration: none;
- 
 }
 .navigation {
     display: flex;
     margin: 0 auto;
-
 }
 .nav_link {
     padding: 25px 50px;
@@ -38,14 +34,12 @@ a {
 }
 .first {
     text-transform: uppercase;
-
 }
 .content {
     width: 1140px;
     margin: 0 auto;
     padding: 0;
     color: black;
-
 }
 .content_container {
     display: flex;
@@ -83,7 +77,6 @@ td {
     padding: 20px;
     display: flex;
     margin: 0 auto;
-    border: 1px solid rgb(216, 212, 212);
 }
 h2 {
     margin-top: 50px;
