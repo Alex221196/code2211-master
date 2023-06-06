@@ -51,10 +51,6 @@ a {
     display: flex;
     margin: 0 auto;
 }
-.left_side {
- 
-
-}
 .right_side {
     margin-top: 30px;
     padding: 20px;
@@ -88,10 +84,6 @@ td {
     display: flex;
     margin: 0 auto;
     border: 1px solid rgb(216, 212, 212);
-    /* top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%); Центрирование чего-либо */
 }
 h2 {
     margin-top: 50px;
