@@ -1,0 +1,26 @@
+.container{
+    max-width: 1300px;
+}
+
+.blok_1{
+    max-width: 300px;
+    border-radius: 15px;
+    background-color: blue;
+    overflow: hidden;
+}
+img{
+    width: 300px;
+    height: 250px;
+}
+.blok_2{
+        max-width: 300px;
+   border-radius: 15px;
+    background-color: blue;
+    overflow: hidden;
+    float: right;
+}
+.box_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
