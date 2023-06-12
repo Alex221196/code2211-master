@@ -7,9 +7,10 @@
     border-radius: 15px;
     background-color: blue;
     overflow: hidden;
+    color: white;
 }
 img{
-    width: 300px;
+    width: 100%;
     height: 250px;
 }
 .blok_2{
@@ -17,7 +18,11 @@ img{
    border-radius: 15px;
     background-color: blue;
     overflow: hidden;
+    color: white;
 
+}
+.ppp{
+    padding: 10px;
 }
 .box_2{
     max-width: 800px;
@@ -29,6 +34,9 @@ img{
     max-width: 800px;
 }
 .box_1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     position: absolute;
     top:10%;
     right: 10%;
