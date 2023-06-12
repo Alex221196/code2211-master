@@ -17,10 +17,32 @@ img{
    border-radius: 15px;
     background-color: blue;
     overflow: hidden;
-    float: right;
+
 }
 .box_2{
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.box_3{
+    max-width: 800px;
+}
+.box_1{
+    position: absolute;
+    top:10%;
+    right: 10%;
+    float: right;
+}
+@media (min-width: 280px) and (max-width: 1230px) {
+    .box_1{
+        position: unset;
+        top:unset;
+        right: unset;
+        float: unset;
+        display: flex;
+         gap: 50px;
+         flex-wrap: wrap;
+    }
+
 }
