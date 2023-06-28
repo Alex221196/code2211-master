@@ -1,0 +1,45 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.box1 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box3 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    width: 350px;
+    background-color: rgb(40, 43, 42);
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.bk {
+    background-color: aliceblue;
+}
