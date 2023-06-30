@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-container">
+            <h1>Credit Card Details</h1>
+            <div class="field-container">
+                <label for="cardnumber">Card Namber</label>
+                <input id="***" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                    maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+            </div>
+            <div class="field-container">
+                <label for="name">Name on Card</label>
+                <input id="name" type="name" inputmode="text" pattern="[0-9\s]{2,15}" autocomplete="cc-name"
+                    maxlength="15" placeholder="Lebron James">
+            </div>
+
+            <div class="field-container">
+                <div class="date_code">
+                    <div class="expira">
+                        <label for="expirationdate">Expiry Date</label>
+                        <div class="data">
+                            <input id="expirationdate" type="number" autocomplete="cc-exp-month" pattern="[0-9]*"
+                                maxlength="2" inputmode="numeric">
+                            <input id="expirationdate" type="number" autocomplete="cc-exp-year" pattern="[0-9]*"
+                                maxlength="4" inputmode="numeric">
+                        </div>
+                    </div>
+                    <div class="code">
+                        <label for="securitycode">CVV/CVN</label>
+                        <input id="securitycode" type="password" autocomplete="cc-csc" pattern="[0-9]*" maxlength="3"
+                            inputmode="numeric">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="form2\index.html">формы</a>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+section{
+    display: flex;
+    justify-content: center;
+    color: rgb(55, 57, 80);
+}
+.form-container{
+    height: 425px;
+    width: 600px;
+    background-image: url(leon-dewiwje-ldDmTgf89gU-unsplash.jpg);
+    border-radius: 10px;
+
+}
+h1{
+    color: white;
+    width: 350px;
+    background-color: brown;
+    margin-left: -30px;
+}
+.field-container{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+margin-top: 30px;
+width: 50%;
+}
+input {
+background-color:rgb(194, 190, 185);
+border-style: unset;
+border-bottom: black solid 1px;
+outline: none;
+padding: 10px;
+width: 100%;
+opacity: 70%;
+
+
+}
+.date_code{
+display: flex;
+gap: 10px;
+}
+.data{
+    display: flex;
+    gap: 10px;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

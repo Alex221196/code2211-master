@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="valid">
+        <h1>Inputs</h1>
+        <input class="val" type="text">
+
+        <input class="val" type="text" title="Верный Формат" minlength="2" maxlength="3" required pattern="^[0-9]+$">
+        <input class="val" type="text" title="Неверный формат" minlength="2" maxlength="3" required pattern="^[0-9]+$">
+    </div>
+    <div class="radio">
+        <h1>Radio button</h1>
+        <label for="">Gender</label>
+        <input type="radio" id="r1" name="drone" value="val1" checked="">
+        <label for="">Male</label>
+        <input type="radio" id="r2" name="drone" value="val2" checked="">
+        <label for="">Female</label>
+    </div>
+    <div class="but">
+        <button class="Act">Active</button>
+        <button class="Hov">Hover</button>
+        <button class="dis">Disabled</button>
+        <button class="red" ><i class="fa fa-minus" aria-hidden="true"></i></button>
+        <button class="green"><i class="fa fa-plus" aria-hidden="true"></i></i></button>
+    </div>
+    <div class="text">
+        <h1>Textarea</h1>
+        <textarea name="text" id="ta" cols="30" rows="10"></textarea>
+    </div>
+</body>
+
+</html>

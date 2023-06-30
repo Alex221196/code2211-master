@@ -1,0 +1,95 @@
+.val{
+    width: 150px;
+    height: 50px;
+
+}
+.val:valid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+
+.val:invalid {
+    border-color: red;
+    color: red;
+    box-shadow: none;
+}
+
+.val:focus:valid {
+    border-color: green;
+    color: green;
+    box-shadow: none;
+}
+
+.val:focus:invalid {
+    border-color: red;
+    color: red;
+    box-shadow: none;
+}
+
+.val:focus:required:valid {
+    border-color: green ;
+    color: green;
+    box-shadow: none;
+}
+
+.val:focus:required:invalid {
+    border-color: red;
+    color: red;
+    box-shadow: none;
+}
+#r1{
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid green;
+}
+#r1:checked {
+    border: 8px solid green;
+    transition: 0.2s all linear;
+  }
+  #r2{
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+}
+#r2:checked {
+    border: 8px solid red;
+    transition: 0.2s all linear;
+  }
+
+  button{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+  }
+  .Act{
+    background-color:green
+  }
+  .Act:active{
+    background-color: red ;
+  }
+  .Hov{
+    background-color: red;
+  }
+  .Hov:hover{
+    background-color: green;
+  }
+  .green{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+.red{
+    background-color: red;
+    width: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
